@@ -1,0 +1,41 @@
+
+/* aca coloco los colores del fondo, color letra y tipo de letra*/
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* color de los titulos */
+h1,h2, h4 {
+    color: #9b59b6; /* morado */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-carta {
+    height: 350px;
+    object-fit: contain; /* ajusta la imagen al tamaño requerido, sin recortarla. */
+  }
+
+/* fondo del card, color letra, bordes.*/
+.card {
+    background-color: #2e2e2e;
+    color: #f1f1f1;
+    border: 1px solid #9b59b6;
+}
+
+/* color del boton.*/
+.btn-primary {
+    background-color: #800020;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #9b2c2c;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #ccc;
+}
